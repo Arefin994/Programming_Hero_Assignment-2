@@ -115,9 +115,10 @@ ul {
 
 .love-enjoy {
     display: flex;
-    padding: 200px;
+    padding-left: 200px;
     padding-top: 30px;
     padding-right: 5px;
+    padding-bottom: 30px;
     width: 800px;
     height: 1059px;
 }
@@ -188,6 +189,93 @@ ul {
 .smol {
     font-weight: 500;
     font-size: 25px;
+}
+
+.facts {
+    padding: 0px 200px;
+}
+
+.facts .section-title {
+    margin-top: 0px;
+}
+
+.facts .section-desc {
+    padding-right: 500px;
+    padding-bottom: 15px;
+    color: #424242;
+}
+
+.facts-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0px 75px;
+    gap: 20px;
+}
+
+
+
+.fact {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #FF900E;
+    padding: 10px;
+    padding-top: 20px;
+    width: 170px;
+    height: 170px;
+    color: #424242;
+}
+
+.fact:hover {
+    background-color: #FF900E;
+    color: white;
+}
+
+.sponsor {
+    padding-left: 170px;
+    padding-top: 50px;
+}
+
+.sponsor .section-title {
+    border: none;
+    text-align: center;
+}
+
+.sponsor .section-desc {
+    text-align: center;
+}
+
+.sponsor img {
+    padding: 30px;
+    padding-right: 130px;
+    width: 90px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    filter: grayscale(100%);
+}
+
+.copyright{
+    justify-content: center;
+    align-items: center;
+}
+.cpy {
+    width: 700x;
+    height: 50px;
+    padding-left: 180px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background-color: rgb(255, 231, 202);
+    justify-content: center;
+    align-items: center;
+}
+.cpy h4{
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
 }
 
 @media screen and (max-width: 576px) {
@@ -294,9 +382,11 @@ ul {
         padding-left: 0px;
         width: 500px;
     }
-    .feature-box{
+
+    .feature-box {
         width: 480px;
     }
+
     .feature-img .btn-special {
         position: absolute;
         transform: translate(-120%, 320%);
@@ -313,5 +403,49 @@ ul {
         height: 200px;
         border: none;
         border-radius: 10px;
+    }
+
+    .facts {
+        padding-top: 850px;
+        padding-left: 5px;
+    }
+
+    .facts-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 10px;
+    }
+
+    .sponsor {
+        padding-left: 10px;
+    }
+
+    .sponsor img {
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sponsor .section-title {
+        padding-left: 0px;
+    }
+
+    .sponsor .section-desc {
+        padding-left: 0px;
+    }
+    .cpy {
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        background-color: rgb(255, 231, 202);
+        justify-content: center;
+        align-items: center;
+    }
+    .cpy h4{
+        margin-bottom: 0px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
     }
 }
