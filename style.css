@@ -6,7 +6,13 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-
+html,body {
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    
+}
 .header {
     background-color: rgba(255, 144, 14, 0.102);
 }
@@ -256,10 +262,11 @@ ul {
     filter: grayscale(100%);
 }
 
-.copyright{
+.copyright {
     justify-content: center;
     align-items: center;
 }
+
 .cpy {
     width: 700x;
     height: 50px;
@@ -271,7 +278,8 @@ ul {
     justify-content: center;
     align-items: center;
 }
-.cpy h4{
+
+.cpy h4 {
     margin-bottom: 0px;
     justify-content: center;
     align-items: center;
@@ -433,6 +441,7 @@ ul {
     .sponsor .section-desc {
         padding-left: 0px;
     }
+
     .cpy {
         padding-left: 0px;
         margin-left: 0px;
@@ -442,7 +451,8 @@ ul {
         justify-content: center;
         align-items: center;
     }
-    .cpy h4{
+
+    .cpy h4 {
         margin-bottom: 0px;
         justify-content: center;
         align-items: center;
